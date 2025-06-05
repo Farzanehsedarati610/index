@@ -15,4 +15,7 @@ RUN chmod +x /app/financial-transfer-service.jar
 
 # Execute the JAR file
 CMD ["java", "-jar", "/app/financial-transfer-service.jar"]
+COPY target/financial-transfer-service-1.0.0.jar /app/financial-transfer-service.jar
+WORKDIR /app
+CMD ["java", "-jar", "/app/financial-transfer-service.jar"]
 
