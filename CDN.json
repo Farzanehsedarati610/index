@@ -1,0 +1,8 @@
+{
+  "cdn_url": "https://your-cdn-provider.com",
+  "cache_policy": "max-age=3600",
+  "compression": "gzip",
+  "allowed_origins": ["*"],
+  "secure_connections": true
+}
+
